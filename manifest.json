@@ -1,0 +1,7 @@
+{
+    "name": "My Pipedrive App",
+    "version": "1.0.0",
+    "url": "http://localhost:3000",
+    "custom_ui_locations": ["deals_details_top_bar"],
+    "permissions": ["deals:read", "deals:write"]
+}
