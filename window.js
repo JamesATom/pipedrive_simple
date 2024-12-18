@@ -26,7 +26,7 @@ class PipedriveDeals {
   async showDealModal() {
     await this.sdk.execute('SHOW_MODAL', {
       title: 'Create New Deal',
-      url: 'fhttps://pipedrive-simple.vercel.app/form.html',
+      url: 'https://pipedrive-simple.vercel.app/form.html',
       width: 400,
       height: 600,
       buttons: [
