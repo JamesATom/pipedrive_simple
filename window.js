@@ -1,5 +1,5 @@
-// import AppExtensionsSDK from '@pipedrive/app-extensions-sdk';
-import {AppExtensionsSDK} from './node_modules/@pipedrive/app-extensions-sdk/dist/index.js';
+import AppExtensionsSDK from '@pipedrive/app-extensions-sdk';
+// import {AppExtensionsSDK} from './node_modules/@pipedrive/app-extensions-sdk/dist/index.js';
 
 class PipedriveDeals {
   constructor() {
@@ -26,7 +26,7 @@ class PipedriveDeals {
   async showDealModal() {
     await this.sdk.execute('SHOW_MODAL', {
       title: 'Create New Deal',
-      url: 'form.html',
+      url: 'fhttps://pipedrive-simple.vercel.app/form.html',
       width: 400,
       height: 600,
       buttons: [
