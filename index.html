@@ -20,7 +20,7 @@
         <button type="submit">Create a new deal</button>
     </form>
 
-    <script type="module">
+    <!-- <script type="module">
         import AppExtensionsSDK from '@pipedrive/app-extensions-sdk';
 
         const sdk = await new AppExtensionsSDK().initialize();
@@ -43,8 +43,9 @@
                 alert('Error creating deal: ' + error.message);
             }
         });
-    </script>
-    <script type="module" src="./script.js"></script>
+    </script> -->
+    <script type="module" src="./dist/bundle.js"></script>
+
 
 </body>
 </html>

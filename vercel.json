@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/form.html", "destination": "/form.html" },
+      { "source": "/index.html", "destination": "/index.html" },
       { "source": "/script.js", "destination": "/script.js" },
       { "source": "/manifest.json", "destination": "/manifest.json" }
     ]
