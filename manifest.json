@@ -10,5 +10,9 @@
             "type": "button",
             "url": "https://pipedrive-simple.vercel.app/index.html"
         }
+    },
+    "oauth": {
+        "client_id": "2e59c4c61a365e8c",
+        "client_secret": "b4ffa42b62908d569ee5f47ab17eee676c1b9741"
     }
 }
