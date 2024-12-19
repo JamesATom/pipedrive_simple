@@ -4,7 +4,9 @@ class PipedriveDeals {
     constructor() {
         // Add custom UI identifier
         this.sdk = new AppExtensionsSDK({
-            identifier: 'deal-creator-app'
+            identifier: 'deal-creator-app',
+            clientId: '2e59c4c61a365e8c',
+            clientSecret: 'b4ffa42b62908d569ee5f47ab17eee676c1b9741'
         });
         this.initialized = false;
     }
