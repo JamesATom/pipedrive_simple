@@ -3,5 +3,12 @@
     "version": "1.0.0",
     "url": "https://pipedrive-simple.vercel.app",
     "custom_ui_locations": ["deal_list_view"],
-    "permissions": ["deals:read", "deals:write"]
+    "permissions": ["deals:read", "deals:write"],
+    "identifier": "deal-creator-app",
+    "custom_ui": {
+        "deal_list_view": {
+            "type": "button",
+            "url": "https://pipedrive-simple.vercel.app/index.html"
+        }
+    }
 }

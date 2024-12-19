@@ -2,14 +2,17 @@ import AppExtensionsSDK from '@pipedrive/app-extensions-sdk';
 
 class PipedriveDeals {
     constructor() {
-        this.sdk = new AppExtensionsSDK();
+        // Add custom UI identifier
+        this.sdk = new AppExtensionsSDK({
+            identifier: 'deal-creator-app'
+        });
         this.initialized = false;
     }
 
     async initialize() {
         try {
             if (!this.initialized) {
-                await this.sdk.initialize();
+                const sdk = await this.sdk.initialize();
                 console.log('SDK initialized successfully');
                 this.initialized = true;
                 await this.addButton();
