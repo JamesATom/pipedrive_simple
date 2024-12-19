@@ -2,6 +2,6 @@
     "name": "My Pipedrive App",
     "version": "1.0.0",
     "url": "https://pipedrive-simple.vercel.app",
-    "custom_ui_locations": ["deals_details_top_bar"],
+    "custom_ui_locations": ["deal_list_view"],
     "permissions": ["deals:read", "deals:write"]
 }

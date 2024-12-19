@@ -1,25 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Create Deal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Deal</title>
     <style>
-        body { padding: 20px; }
-        .form-group { margin-bottom: 15px; }
-        input { width: 100%; padding: 8px; }
-        button { padding: 10px; background: #2196F3; color: white; border: none; }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
+    <h1>Create a New Deal</h1>
     <form id="deal-form">
         <div class="form-group">
-            <label>Deal Name: <input type="text" id="deal-name" required></label>
+            <label for="deal-name">Deal Name:</label>
+            <input type="text" id="deal-name" required>
         </div>
         <div class="form-group">
-            <label>Deal Value: <input type="number" id="deal-value" required></label>
+            <label for="deal-value">Deal Value:</label>
+            <input type="number" id="deal-value" required>
         </div>
         <button type="submit">Create Deal</button>
     </form>
 
-    <script src="dist/bundle.js"></script>
+    <script type="module" src="./script.js"></script>
 </body>
 </html>
