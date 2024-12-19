@@ -23,7 +23,7 @@ class PipedriveDeals {
         try {
             await this.sdk.execute('ADD_BUTTON', {
                 text: 'Create Deal',
-                location: 'deals_details_top_bar', // Change location as needed
+                location: 'deal_list_view', // Change location as needed
                 onClick: () => this.showDealModal()
             });
             console.log('Button added successfully');
