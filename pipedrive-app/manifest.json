@@ -2,14 +2,17 @@
     "name": "My Pipedrive App",
     "version": "1.0.0",
     "url": "https://pipedrive-simple.vercel.app/",
-    "custom_ui_locations": ["deal_list_view"],
+    "custom_ui_locations": ["deal_list_view", "deal_details"],
     "permissions": ["deals:read", "deals:write"],
     "identifier": "Custom Deal Creator",
     "custom_ui": {
       "deal_list_view": {
         "type": "button",
         "url": "https://pipedrive-simple.vercel.app/pipedrive"
+      },
+      "deal_details": {
+        "type": "button",
+        "url": "https://pipedrive-simple.vercel.app/pipedrive"
       }
     }
   }
-  
