@@ -1,0 +1,15 @@
+{
+    "name": "My Pipedrive App",
+    "version": "1.0.0",
+    "url": "https://your-app-url.vercel.app",
+    "custom_ui_locations": ["deal_list_view"],
+    "permissions": ["deals:read", "deals:write"],
+    "identifier": "your-app-identifier",
+    "custom_ui": {
+      "deal_list_view": {
+        "type": "button",
+        "url": "https://your-app-url.vercel.app/index.html"
+      }
+    }
+  }
+  
