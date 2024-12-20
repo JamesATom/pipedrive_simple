@@ -1,0 +1,7 @@
+{
+    "rewrites": [
+      { "source": "/", "destination": "/" },
+      { "source": "/callback", "destination": "/callback" },
+      { "source": "/pipedrive", "destination": "/pipedrive" }
+    ]
+  }
