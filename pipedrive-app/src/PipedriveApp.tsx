@@ -28,7 +28,7 @@ const PipedriveApp: React.FC = () => {
       try {
         await sdk.execute('SHOW_MODAL', {
           title: 'Create a New Deal',
-          url: 'https://pipedrive-simple.vercel.app/', // Replace with your deployed URL
+          url: 'https://pipedrive-simple.vercel.app/pipedrive', // Replace with your deployed URL
           width: 400,
           height: 600,
           buttons: [{ label: 'Cancel', action: 'close' }],
